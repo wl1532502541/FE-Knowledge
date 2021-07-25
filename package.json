@@ -5,13 +5,10 @@
   "author": "wl1532502541 <1532502541@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.22",
-    "vuepress-plugin-yuque": "^0.6.1"
+    "vuepress": "^2.0.0-beta.22"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "docs:build": "vuepress build docs"
   }
 }

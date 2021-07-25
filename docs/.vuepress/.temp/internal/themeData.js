@@ -1,6 +1,6 @@
 export const themeData = {
   "displayAllHeaders": true,
-  "logo": "/logo2.png",
+  "logo": "/logo/book.png",
   "nav": [
     {
       "text": "首页",
@@ -21,7 +21,35 @@ export const themeData = {
       ]
     }
   ],
-  "sidebar": [],
+  "sidebar": [
+    {
+      "title": "HTTP",
+      "children": [
+        {
+          "title": "HTTP报文格式.md",
+          "path": "/HTTP/HTTP报文格式"
+        }
+      ]
+    },
+    {
+      "title": "JS基础",
+      "children": [
+        {
+          "title": "Promise面试题.md",
+          "path": "/JS基础/Promise面试题"
+        }
+      ]
+    },
+    {
+      "title": "浏览器",
+      "children": [
+        {
+          "title": "浏览器内核的理解.md",
+          "path": "/浏览器/浏览器内核的理解"
+        }
+      ]
+    }
+  ],
   "locales": {
     "/": {
       "selectLanguageName": "English"
