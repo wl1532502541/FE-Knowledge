@@ -23,29 +23,29 @@ export const themeData = {
   ],
   "sidebar": [
     {
-      "title": "HTTP",
+      "text": "HTTP",
       "children": [
         {
-          "title": "HTTP报文格式.md",
-          "link": "/HTTP/HTTP报文格式"
+          "text": "HTTP报文格式.md",
+          "link": "/HTTP/HTTP报文格式.md"
         }
       ]
     },
     {
-      "title": "JS基础",
+      "text": "JS基础",
       "children": [
         {
-          "title": "Promise面试题.md",
-          "link": "/JS基础/Promise面试题"
+          "text": "Promise面试题.md",
+          "link": "/JS基础/Promise面试题.md"
         }
       ]
     },
     {
-      "title": "浏览器",
+      "text": "浏览器",
       "children": [
         {
-          "title": "浏览器内核的理解.md",
-          "link": "/浏览器/浏览器内核的理解"
+          "text": "浏览器内核的理解.md",
+          "link": "/浏览器/浏览器内核的理解.md"
         }
       ]
     }
@@ -75,17 +75,4 @@ export const themeData = {
   ],
   "backToHome": "Take me home",
   "openInNewWindow": "open in new window"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }

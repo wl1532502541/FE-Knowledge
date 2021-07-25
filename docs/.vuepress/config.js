@@ -21,7 +21,8 @@ function buildChildren(path, parentName = "") {
         } else {
           const suffixName = file.slice(-3);
           if (suffixName !== ".md") return;
-          current.link = `${parentName}/${file.slice(0, -3)}`;
+          current.link = `${parentName}/${file}`;
+          // current.link = `${parentName}/${file.slice(0, -3)}`;
         }
       }
       return current;
