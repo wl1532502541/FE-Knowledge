@@ -5,11 +5,16 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "home": true,
-    "heroImage": "/logo.jpg",
+    "heroImage": "/logo/keli.jpg",
     "heroText": "leinaldo",
     "tagline": "前端知识整理",
-    "actionText": "I need offer →",
-    "actionLink": "/浏览器/浏览器内核的理解",
+    "actions": [
+      {
+        "text": "I need offer →",
+        "link": "/浏览器/浏览器内核的理解.md",
+        "type": "primary"
+      }
+    ],
     "features": [
       {
         "title": "8小时工作",
@@ -30,12 +35,12 @@ export const data = {
   "headers": [],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1627218146000,
+    "updatedTime": 1627219585000,
     "contributors": [
       {
         "name": "wl1532502541",
         "email": "1532502541@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   }

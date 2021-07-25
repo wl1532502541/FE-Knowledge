@@ -1,10 +1,14 @@
 ---
 home: true
-heroImage: /logo.jpg
+heroImage: /logo/keli.jpg
 heroText: leinaldo
 tagline: 前端知识整理
-actionText: I need offer →
-actionLink: /浏览器/浏览器内核的理解
+# actionText: I need offer →
+# actionLink: /浏览器/浏览器内核的理解
+actions:
+  - text: I need offer →
+    link: /浏览器/浏览器内核的理解.md
+    type: primary
 features:
 - title: 8小时工作
   details: i need offer

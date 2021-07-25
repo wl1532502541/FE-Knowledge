@@ -11,7 +11,7 @@ function buildChildren(path, parentName = "") {
   return files
     .map((file) => {
       if (ignoreList.includes(file)) return;
-      const current = { title: file };
+      const current = { text: file };
       const subPath = `${path}/${file}`;
       if (fs.statSync(subPath).isDirectory()) {
         current.children = buildChildren(subPath, `${parentName}/${file}`);
@@ -21,7 +21,7 @@ function buildChildren(path, parentName = "") {
         } else {
           const suffixName = file.slice(-3);
           if (suffixName !== ".md") return;
-          current.path = `${parentName}/${file.slice(0, -3)}`;
+          current.link = `${parentName}/${file.slice(0, -3)}`;
         }
       }
       return current;

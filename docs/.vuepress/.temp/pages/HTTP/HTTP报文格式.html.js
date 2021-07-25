@@ -21,8 +21,14 @@ export const data = {
   ],
   "filePathRelative": "HTTP/HTTP报文格式.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1627219585000,
+    "contributors": [
+      {
+        "name": "wl1532502541",
+        "email": "1532502541@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

@@ -57,8 +57,14 @@ export const data = {
   ],
   "filePathRelative": "JS基础/Promise面试题.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1627219585000,
+    "contributors": [
+      {
+        "name": "wl1532502541",
+        "email": "1532502541@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

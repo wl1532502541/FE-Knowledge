@@ -8,8 +8,14 @@ export const data = {
   "headers": [],
   "filePathRelative": "浏览器/浏览器内核的理解.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1627219585000,
+    "contributors": [
+      {
+        "name": "wl1532502541",
+        "email": "1532502541@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

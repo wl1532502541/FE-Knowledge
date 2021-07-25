@@ -27,7 +27,7 @@ export const themeData = {
       "children": [
         {
           "title": "HTTP报文格式.md",
-          "path": "/HTTP/HTTP报文格式"
+          "link": "/HTTP/HTTP报文格式"
         }
       ]
     },
@@ -36,7 +36,7 @@ export const themeData = {
       "children": [
         {
           "title": "Promise面试题.md",
-          "path": "/JS基础/Promise面试题"
+          "link": "/JS基础/Promise面试题"
         }
       ]
     },
@@ -45,7 +45,7 @@ export const themeData = {
       "children": [
         {
           "title": "浏览器内核的理解.md",
-          "path": "/浏览器/浏览器内核的理解"
+          "link": "/浏览器/浏览器内核的理解"
         }
       ]
     }
