@@ -35,6 +35,7 @@ const sidebar = buildChildren(workPath);
 module.exports = {
     title:"前端知识整理",
     description:'Just playing around',
+    head:[['meta',{name:'referrer',content:'never'}]],
     themeConfig:{
         displayAllHeaders:true,
         logo:'/logo/book.png',
