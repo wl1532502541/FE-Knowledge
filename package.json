@@ -10,6 +10,6 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy":"yarn run docs:build cd docs/.vuepress/dist git init git add -A git commit -m 'deploy';git branch -M main;git remote add origin https://github.com/wl1532502541/empty.git;git pull origin main;git push -u origin main"
+    "deploy":"bash deploy.sh"
   }
 }
