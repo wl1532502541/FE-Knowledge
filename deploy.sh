@@ -15,10 +15,12 @@ cd docs/.vuepress/dist
 git init 
 git add -A
 git commit -m 'deploy'
-# git remote add origin git@github.com:wl1532502541/wl1532502541.github.io.git
-
+git branch -M main
+git remote add origin https://github.com/wl1532502541/wl1532502541.github.io.git
+git pull origin main --allow-unrelated-histories
+git push -u origin main
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f git@github.com:wl1532502541/wl1532502541.github.io.git main
+# git push -f git@github.com:wl1532502541/wl1532502541.github.io.git main
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages

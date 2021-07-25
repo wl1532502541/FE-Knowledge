@@ -1,7 +1,8 @@
 export const themeData = {
-  "displayAllHeaders": true,
   "logo": "/logo/book.png",
-  "nav": [
+  "darkmode": true,
+  "repo": "https://github.com/wl1532502541/FE-Knowledge",
+  "navbar": [
     {
       "text": "首页",
       "link": "/"
@@ -9,7 +10,7 @@ export const themeData = {
     {
       "text": "Languages",
       "ariaLabel": "Language Menu",
-      "items": [
+      "children": [
         {
           "text": "Chinese",
           "link": "/language/chinese/"
@@ -55,9 +56,7 @@ export const themeData = {
       "selectLanguageName": "English"
     }
   },
-  "navbar": [],
   "darkMode": true,
-  "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebarDepth": 2,
@@ -75,17 +74,4 @@ export const themeData = {
   ],
   "backToHome": "Take me home",
   "openInNewWindow": "open in new window"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }

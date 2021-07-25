@@ -35,21 +35,26 @@ const sidebar = buildChildren(workPath);
 module.exports = {
     title:"前端知识整理",
     description:'Just playing around',
-    head:[['meta',{name:'referrer',content:'never'}]],
+    head:[['meta',{name:'referrer',content:'never'}]],//会出现在html的head里，用来绕过语雀的图片防盗链
     themeConfig:{
-        displayAllHeaders:true,
+        // displayAllHeaders:true,
         logo:'/logo/book.png',
-        nav:[
+        darkmode:true,
+        repo:'https://github.com/wl1532502541/FE-Knowledge',
+        navbar:[
             {text:"首页",link:'/'},
             {
                 text: 'Languages',
                 ariaLabel: 'Language Menu',
-                items: [
+                children: [
                   { text: 'Chinese', link: '/language/chinese/' },
                   { text: 'Japanese', link: '/language/japanese/' }
                 ]
               }
         ],
-        sidebar
+        sidebar,
+        locales:{
+          
+        }
     }
 }
