@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-4db0c930",
   "path": "/JS%E5%9F%BA%E7%A1%80/Promise%E9%9D%A2%E8%AF%95%E9%A2%98.html",
-  "title": "",
+  "title": "Promise面试题",
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
@@ -66,4 +66,17 @@ export const data = {
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

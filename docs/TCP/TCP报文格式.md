@@ -1,3 +1,7 @@
+# TCP报文格式
+
+
+
 ![](https://cdn.nlark.com/yuque/0/2021/jpeg/12821255/1617083212278-14e14977-91ad-4962-a335-1246b5ef430a.jpeg#align=left&display=inline&height=462&id=JTTrS&margin=%5Bobject%20Object%5D&originHeight=427&originWidth=554&size=0&status=done&style=none&width=599)
 ![](https://cdn.nlark.com/yuque/0/2021/png/12821255/1626343697103-9769c11a-b563-48a1-9bf0-348aabe7292b.png#align=left&display=inline&height=315&margin=%5Bobject%20Object%5D&originHeight=315&originWidth=988&size=0&status=done&style=none&width=988)
 其中比较重要的字段有：

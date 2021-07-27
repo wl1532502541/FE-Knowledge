@@ -1,4 +1,7 @@
+# Promise面试题
+
 ### 1. Promise的几道基础题
+
 #### 1.1 题目一
 ```javascript
 const promise1 = new Promise((resolve, reject) => {

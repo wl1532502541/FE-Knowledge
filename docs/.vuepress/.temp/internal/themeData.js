@@ -1,69 +1,54 @@
 export const themeData = {
   "logo": "/logo/book.png",
-  "darkmode": true,
   "repo": "https://github.com/wl1532502541/FE-Knowledge",
+  "editLink": false,
   "navbar": [
     {
       "text": "首页",
       "link": "/"
-    },
-    {
-      "text": "Languages",
-      "ariaLabel": "Language Menu",
-      "children": [
-        {
-          "text": "Chinese",
-          "link": "/language/chinese/"
-        },
-        {
-          "text": "Japanese",
-          "link": "/language/japanese/"
-        }
-      ]
     }
   ],
   "sidebar": [
     {
       "text": "HTTP",
       "children": [
-        {
-          "text": "HTTP报文格式.md",
-          "link": "/HTTP/HTTP报文格式.md"
-        }
+        "/HTTP/HTTP报文格式.md"
       ]
     },
     {
       "text": "JS基础",
       "children": [
-        {
-          "text": "Promise面试题.md",
-          "link": "/JS基础/Promise面试题.md"
-        }
+        "/JS基础/Promise面试题.md"
       ]
     },
     {
       "text": "TCP",
       "children": [
-        {
-          "text": "TCP三次握手四次挥手.md",
-          "link": "/TCP/TCP三次握手四次挥手.md"
-        },
-        {
-          "text": "TCP报文格式.md",
-          "link": "/TCP/TCP报文格式.md"
-        }
+        "/TCP/TCP三次握手四次挥手.md",
+        "/TCP/TCP报文格式.md"
       ]
     },
     {
       "text": "浏览器",
       "children": [
-        {
-          "text": "浏览器内核的理解.md",
-          "link": "/浏览器/浏览器内核的理解.md"
-        }
+        "/浏览器/浏览器内核的理解.md"
       ]
     }
   ],
+  "sidebarDepth": 3,
+  "lastUpdatedText": "上次更新",
+  "contributorsText": "贡献者",
+  "tip": "提示",
+  "warning": "注意",
+  "danger": "警告",
+  "notFound": [
+    "这里什么都没有",
+    "我们怎么到这来了？",
+    "这是一个 404 页面",
+    "看起来我们进入了错误的链接"
+  ],
+  "darkmode": true,
+  "toggleDarkMode": "切换夜间模式",
   "locales": {
     "/": {
       "selectLanguageName": "English"
@@ -72,19 +57,22 @@ export const themeData = {
   "darkMode": true,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
-  "sidebarDepth": 2,
-  "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdated": true,
-  "lastUpdatedText": "Last Updated",
   "contributors": true,
-  "contributorsText": "Contributors",
-  "notFound": [
-    "There's nothing here.",
-    "How did we get here?",
-    "That's a Four-Oh-Four.",
-    "Looks like we've got some broken links."
-  ],
   "backToHome": "Take me home",
   "openInNewWindow": "open in new window"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

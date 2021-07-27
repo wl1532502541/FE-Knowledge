@@ -1,4 +1,5 @@
-<template><h3 id="_1-promise的几道基础题" tabindex="-1"><a class="header-anchor" href="#_1-promise的几道基础题" aria-hidden="true">#</a> 1. Promise的几道基础题</h3>
+<template><h1 id="promise面试题" tabindex="-1"><a class="header-anchor" href="#promise面试题" aria-hidden="true">#</a> Promise面试题</h1>
+<h3 id="_1-promise的几道基础题" tabindex="-1"><a class="header-anchor" href="#_1-promise的几道基础题" aria-hidden="true">#</a> 1. Promise的几道基础题</h3>
 <h4 id="_1-1-题目一" tabindex="-1"><a class="header-anchor" href="#_1-1-题目一" aria-hidden="true">#</a> 1.1 题目一</h4>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> promise1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'promise1'</span><span class="token punctuation">)</span>
