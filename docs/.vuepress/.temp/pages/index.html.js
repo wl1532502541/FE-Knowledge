@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "home": true,
-    "heroImage": "/logo/keli.jpg",
+    "heroImage": "/logo/klee.jpg",
     "heroText": "leinaldo",
     "tagline": "前端知识整理",
     "actions": [

@@ -37,7 +37,10 @@ console.log(sidebar)
 module.exports = {
     title:"前端知识整理",
     description:'Just playing around',
-    head:[['meta',{name:'referrer',content:'never'}]],//会出现在html的head里，用来绕过语雀的图片防盗链
+    head:[
+      ['meta',{name:'referrer',content:'never'}],//会出现在html的head里，用来绕过语雀的图片防盗链
+      ['link',{href:'/logo/klee.ico',rel:'SHORTCUT ICON'}]
+    ],
     themeConfig:{
         logo:'/logo/book.png',
         repo:'https://github.com/wl1532502541/FE-Knowledge',

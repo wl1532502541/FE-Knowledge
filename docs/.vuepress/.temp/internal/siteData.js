@@ -10,6 +10,13 @@ export const siteData = {
         "name": "referrer",
         "content": "never"
       }
+    ],
+    [
+      "link",
+      {
+        "href": "/logo/klee.ico",
+        "rel": "SHORTCUT ICON"
+      }
     ]
   ],
   "locales": {}

@@ -18,7 +18,7 @@ git commit -m 'deploy'
 git branch -M main
 git remote add origin https://github.com/wl1532502541/wl1532502541.github.io.git
 git pull origin main --allow-unrelated-histories
-git push -u origin main
+git push --set-upstream origin main -f
 # 如果你想要部署到 https://USERNAME.github.io
 # git push -f git@github.com:wl1532502541/wl1532502541.github.io.git main
 

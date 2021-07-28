@@ -10,9 +10,17 @@ export const themeData = {
   ],
   "sidebar": [
     {
+      "text": "CSS",
+      "children": [
+        "/CSS/link和@import.md"
+      ]
+    },
+    {
       "text": "HTTP",
       "children": [
-        "/HTTP/HTTP报文格式.md"
+        "/HTTP/HTTP报文格式.md",
+        "/HTTP/HTTP版本.md",
+        "/HTTP/HTTP状态码.md"
       ]
     },
     {
@@ -25,13 +33,26 @@ export const themeData = {
       "text": "TCP",
       "children": [
         "/TCP/TCP三次握手四次挥手.md",
-        "/TCP/TCP报文格式.md"
+        "/TCP/TCP报文格式.md",
+        "/TCP/TCP重传、流量控制与拥塞控制.md"
+      ]
+    },
+    {
+      "text": "前后端通信",
+      "children": [
+        "/前后端通信/跨域.md"
       ]
     },
     {
       "text": "浏览器",
       "children": [
         "/浏览器/浏览器内核的理解.md"
+      ]
+    },
+    {
+      "text": "算法",
+      "children": [
+        "/算法/十大经典排序算法.md"
       ]
     }
   ],
