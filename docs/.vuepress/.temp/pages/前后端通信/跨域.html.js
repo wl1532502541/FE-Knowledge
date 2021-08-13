@@ -89,8 +89,14 @@ export const data = {
   ],
   "filePathRelative": "前后端通信/跨域.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1627488007000,
+    "contributors": [
+      {
+        "name": "wl1532502541",
+        "email": "1532502541@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

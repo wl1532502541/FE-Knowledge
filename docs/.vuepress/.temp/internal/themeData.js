@@ -38,6 +38,12 @@ export const themeData = {
       ]
     },
     {
+      "text": "Vue",
+      "children": [
+        "/Vue/Vuex.md"
+      ]
+    },
+    {
       "text": "前后端通信",
       "children": [
         "/前后端通信/跨域.md"
@@ -46,6 +52,7 @@ export const themeData = {
     {
       "text": "浏览器",
       "children": [
+        "/浏览器/从输入url到显示发生了什么.md",
         "/浏览器/浏览器内核的理解.md"
       ]
     },

@@ -326,8 +326,14 @@ export const data = {
   ],
   "filePathRelative": "算法/十大经典排序算法.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1627488007000,
+    "contributors": [
+      {
+        "name": "wl1532502541",
+        "email": "1532502541@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

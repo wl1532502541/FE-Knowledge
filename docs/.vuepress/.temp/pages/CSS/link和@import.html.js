@@ -46,8 +46,14 @@ export const data = {
   ],
   "filePathRelative": "CSS/link和@import.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1627488007000,
+    "contributors": [
+      {
+        "name": "wl1532502541",
+        "email": "1532502541@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 
