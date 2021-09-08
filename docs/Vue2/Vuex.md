@@ -2,7 +2,7 @@
 ## 什么是vuex
 `VueX`是适用于在`Vue`项目开发时使用的状态管理工具。`Vue`为这些被多个组件频繁使用的值提供了一个统一管理的工具——`VueX`。在具有`VueX`的`Vue`项目中，我们只需要把这些值定义在`VueX`中，即可在整个`Vue`项目的组件中使用。
 ## 如何安装vuex
-**npm**安装
+**npm**安装 test push deploy
 ```
 npm i vuex -s
 复制代码
