@@ -26,7 +26,8 @@ export const themeData = {
     {
       "text": "JS基础",
       "children": [
-        "/JS基础/Promise面试题.md"
+        "/JS基础/Promise面试题.md",
+        "/JS基础/script 标签中的 async 和 defer 属性.md"
       ]
     },
     {
@@ -38,15 +39,23 @@ export const themeData = {
       ]
     },
     {
-      "text": "Vue",
+      "text": "Vue2",
       "children": [
-        "/Vue/Vuex.md"
+        "/Vue2/Vuex.md"
       ]
     },
     {
       "text": "前后端通信",
       "children": [
+        "/前后端通信/ajax.md",
         "/前后端通信/跨域.md"
+      ]
+    },
+    {
+      "text": "手写",
+      "children": [
+        "/手写/封装ajax.md",
+        "/手写/深浅拷贝.md"
       ]
     },
     {
@@ -89,7 +98,8 @@ export const themeData = {
   "lastUpdated": true,
   "contributors": true,
   "backToHome": "Take me home",
-  "openInNewWindow": "open in new window"
+  "openInNewWindow": "open in new window",
+  "toggleSidebar": "toggle sidebar"
 }
 
 if (import.meta.webpackHot) {

@@ -7,6 +7,7 @@ tagline: 前端知识整理
 # actionLink: /浏览器/浏览器内核的理解
 actions:
   - text: I need offer →
+    # link: /浏览器/浏览器内核的理解
     link: /浏览器/浏览器内核的理解.md
     type: primary
 features:

@@ -138,8 +138,14 @@ export const data = {
   ],
   "filePathRelative": "浏览器/从输入url到显示发生了什么.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1628873220000,
+    "contributors": [
+      {
+        "name": "wl1532502541",
+        "email": "1532502541@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

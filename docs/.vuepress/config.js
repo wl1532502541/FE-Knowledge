@@ -41,6 +41,8 @@ module.exports = {
       ['meta',{name:'referrer',content:'never'}],//会出现在html的head里，用来绕过语雀的图片防盗链
       ['link',{href:'/logo/klee.ico',rel:'SHORTCUT ICON'}]
     ],
+    base:"/FE-Knowledge/",
+    dest:"dist",
     themeConfig:{
         logo:'/logo/book.png',
         repo:'https://github.com/wl1532502541/FE-Knowledge',

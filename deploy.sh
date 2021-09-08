@@ -7,7 +7,7 @@ set -e
 yarn run docs:build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd dist
 
 # 如果是发布到自定义域名
 # echo 'www.yourwebsite.com' > CNAME
@@ -15,15 +15,15 @@ cd docs/.vuepress/dist
 git init 
 git add -A
 git commit -m 'deploy'
-git branch -M main
-git remote add origin https://github.com/wl1532502541/wl1532502541.github.io.git
-git pull origin main --allow-unrelated-histories
-git push --set-upstream origin main -f
+# git branch -M main
+# git remote add origin https://github.com/wl1532502541/wl1532502541.github.io.git
+# git pull origin main --allow-unrelated-histories
+# git push --set-upstream origin main -f
 # 如果你想要部署到 https://USERNAME.github.io
 # git push -f git@github.com:wl1532502541/wl1532502541.github.io.git main
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
-# git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
+git push -f git@github.com:wl1532502541/FE-Knowledge.git master:gh-pages
 
 
 cd -
